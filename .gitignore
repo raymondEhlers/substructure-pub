@@ -1,0 +1,50 @@
+.DS_Store
+test/
+external/fastjet
+external/install
+external/pyfastjet
+external/pachyderm
+
+# Data
+*.root
+trains
+output/
+*.dat
+*.out
+skim/
+# For compression tests
+compression/
+# For performance tests
+performance_studies/
+
+# Virtualenv
+env/
+.venv/
+
+# Misc
+temp/
+.vscode/
+
+# Python
+__pycache__/
+ipynb_checkpoints/
+.ipynb_checkpoints/
+.mypy_cache/
+.python-version
+# parsl
+monitoring.db
+runinfo/
+
+# Packaging
+dist/
+*.egg-info/
+
+# Compiled
+bin/
+build/
+lib/
+*.so
+*.dylib
+
+# Singularity
+*.sif
