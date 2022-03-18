@@ -1,0 +1,4 @@
+# ROOT compilation artifacts
+*.d
+*.so
+*.pcm
